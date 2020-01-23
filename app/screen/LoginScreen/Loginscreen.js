@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { AsyncStorage, TouchableOpacity, ToastAndroid, Image } from 'react-native';
-import { Container, Content, Form, Item, Input, Button,Text, View, Footer, Icon } from 'native-base';
+import { Container, Content, Form, Item, Input, Button,Text, View, Footer, Icon} from 'native-base';
 import axios from 'axios';
 import IMAGES from '../../configs/images';
 import I18n from '../../i18n';

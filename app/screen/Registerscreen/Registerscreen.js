@@ -34,6 +34,7 @@ export default class loginScreen extends Component {
     axios
       .post('http://34.238.41.114:8080/api/users/register', payload)
       .then(async value => {
+        console.log(value.data.code);
         await AsyncStorage.setItem('token', value.data.token);
         if (value.data.code === 200 ) {
           this.props.navigation.dispatch(

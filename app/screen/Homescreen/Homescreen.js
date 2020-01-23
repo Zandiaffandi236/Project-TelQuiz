@@ -1,7 +1,32 @@
 import React, { Component } from 'react';
-import { Container, Header, Title, Content, Footer, FooterTab, Button, Left, Right, Body, Icon, Text } from 'native-base';
-import {SwitchActions} from 'react-navigation';
+import { Image } from 'react-native'
+import { Container, Header, Title, Content, Footer, FooterTab, Button, Body, Icon, Text, View, Label } from 'native-base';
+import {SwitchActions, StackActions} from 'react-navigation';
+import IMAGES from '../../configs/images';
+import styles from './styles';
+
 export default class Homescreen extends Component {
+
+  learn = () => {
+    const pushAction = StackActions.push({
+      routeName: 'Learn'
+    });
+    this.props.navigation.dispatch(pushAction);
+  }
+
+  practice = () => {
+    const pushAction = StackActions.push({
+      routeName: 'Learn'
+    });
+    this.props.navigation.dispatch(pushAction);
+  }
+
+  test = () => {
+    const pushAction = StackActions.push({
+      routeName: 'Learn'
+    });
+    this.props.navigation.dispatch(pushAction);
+  }
 
   back = () => {
     this.props.navigation.dispatch(
@@ -12,33 +37,39 @@ export default class Homescreen extends Component {
   render() {
     return (
       <Container>
-        <Header>
-          <Left>
-            <Button transparent>
-              <Icon name='menu' />
-            </Button>
-          </Left>
+        <Header style={styles.header}>
           <Body>
-            <Title>Header</Title>
+            <Title style={styles.title}>Home</Title>        
           </Body>
-          <Right />
         </Header>
-        <Content>
-          <Text>
-            This is Content Section
-          </Text>
-          <Button onPress={this.back}><Text>Back</Text></Button>
+        <Content padder>
+          <View style={styles.greeting}>
+            <Text style={styles.textGreeting}>Hi Marzandi,</Text>
+            <Text style={styles.textGreeting}>It's Time to Study!</Text>
+          </View>
+          <View style={styles.contentOption}>
+            <Button style={styles.contentButton1} onPress={this.learn} >
+              <Image source={IMAGES.pic1} style={styles.pic1}/>
+            </Button>
+            <Button style={styles.contentButton2} onPress={this.practice} >
+              <Image source={IMAGES.pic2} style={styles.pic1}/>
+            </Button>
+            <Button style={styles.contentButton2} onPress={this.test } >
+              <Image source={IMAGES.pic3} style={styles.pic2}/>
+            </Button>
+          </View>
+          <Button onPress={this.back} style={styles.backButton}><Text>Back</Text></Button>
         </Content>
-        <Footer>
-          <FooterTab>
-            <Button active>
-                <Icon name="home" />
+        <Footer style={styles.shadow}>
+          <FooterTab style={styles.footer}>
+            <Button>
+                <Icon name="home" style={styles.iconActive} />
               </Button>
               <Button>
-                <Icon name="clock" />
+                <Icon name="clock" style={styles.icon} />
               </Button>
               <Button>
-                <Icon active name="person" />
+                <Icon name="person" style={styles.icon} />
               </Button>
           </FooterTab>
         </Footer>
