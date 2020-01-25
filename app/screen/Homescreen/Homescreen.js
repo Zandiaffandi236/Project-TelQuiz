@@ -28,6 +28,20 @@ export default class Homescreen extends Component {
     this.props.navigation.dispatch(pushAction);
   }
 
+  activity = () => {
+    const pushAction = StackActions.push({
+      routeName: 'Activity'
+    });
+    this.props.navigation.dispatch(pushAction);
+  }
+
+  profile = () => {
+    const pushAction = StackActions.push({
+      routeName: 'Profile'
+    });
+    this.props.navigation.dispatch(pushAction);
+  }
+
   back = () => {
     this.props.navigation.dispatch(
       SwitchActions.jumpTo({routeName: 'Login'}),
@@ -65,10 +79,10 @@ export default class Homescreen extends Component {
             <Button>
                 <Icon name="home" style={styles.iconActive} />
               </Button>
-              <Button>
+              <Button onPress={this.activity}>
                 <Icon name="clock" style={styles.icon} />
               </Button>
-              <Button>
+              <Button onPress={this.profile}>
                 <Icon name="person" style={styles.icon} />
               </Button>
           </FooterTab>

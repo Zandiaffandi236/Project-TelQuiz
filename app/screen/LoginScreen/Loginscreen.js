@@ -89,7 +89,6 @@ export default class loginScreen extends Component {
           </Form>
         </Content>
         <Footer style={{ backgroundColor: "#6971F7" }}>
-            {/* {I18n.t('register')} <TouchableOpacity style={styles.register}><Text>{I18n.t('register2')}</Text></TouchableOpacity> */}
           <Text style={styles.footer}>{I18n.t('register')}</Text>
           <Button transparent onPress={this.signup}><Text style={styles.register}> {I18n.t('register2')}</Text></Button>
         </Footer>

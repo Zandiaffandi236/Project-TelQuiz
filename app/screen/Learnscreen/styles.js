@@ -20,6 +20,26 @@ const styles = StyleSheet.create({
     backgroundColor: "#44B883", 
     height: scale(40), 
     borderRadius: 5
+  },
+  option: {
+    flexDirection: 'row',
+    marginTop: scale(110)
+  },
+  option2: {
+    flexDirection: 'row',
+  },  
+  optionButton: {
+    width: scale(120),
+    height: scale(170),
+    marginLeft: scale(30),
+    marginBottom: scale(30),
+    borderRadius: 5,
+    backgroundColor: "#6971F7"
+  },
+  pic: {
+    width: scale(100),
+    height: scale(120),
+    marginLeft: scale(10)
   }
 });
 

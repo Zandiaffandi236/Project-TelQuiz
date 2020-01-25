@@ -1,5 +1,6 @@
 {
   "appVersion": "v 1.0.0",
+  "back": "Back",
   "camera": "Kamera",
   "cancel": "Kembali",
   "checkConnection": "Tidak ada koneksi. \nCek Koneksi internet anda.",

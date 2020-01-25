@@ -1,5 +1,6 @@
 {
   "appVersion": "v 1.0.0",
+  "back": "Back",
   "camera": "Camera",
   "cancel": "Cancel",
   "checkConnection": "No internet connection found. \nCheck your connection.",
