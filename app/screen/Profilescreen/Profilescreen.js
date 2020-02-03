@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Container, Header, Title, Content, Footer, FooterTab, Button, Left, Right, Body, Icon, Text } from 'native-base';
+import { StackActions } from 'react-navigation';
+import styles from './styles';
 
-export default class AnatomyExample extends Component {
+export default class Profilescreen extends Component {
 
   home = () => {
     this.props.navigation.dispatch(StackActions.popToTop());

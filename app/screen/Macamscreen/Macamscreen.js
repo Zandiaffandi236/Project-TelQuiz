@@ -31,7 +31,7 @@ export default class Sejarahscreen extends Component {
         </Header>
         <Content>
           <ScrollView>
-          <Image source={IMAGES.contentThumb} style={styles.Img}/>
+          <Image source={IMAGES.contentThumb4} style={styles.Img}/>
           <Text style={styles.content}>
           1. Zakat Fitrah
           Zakat Fitrah per orang = 3,5 liter x harga beras per liter. Contoh: harga beras yang biasa kamu makan sehari-hari Rp 10.000 per liter, maka zakat fitrah yang harus dibayar per orang sebesar Rp 35.000. Jika dihitung dari segi berat, maka zakat fitrah per orang = 2,5 kg x harga beras per kg.

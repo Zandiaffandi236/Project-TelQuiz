@@ -31,7 +31,7 @@ export default class Sejarahscreen extends Component {
         </Header>
         <Content>
           <ScrollView>
-          <Image source={IMAGES.contentThumb} style={styles.Img}/>
+          <Image source={IMAGES.contentThumb2} style={styles.Img}/>
           <Text style={styles.content}>
           1. Fakir
           Golongan orang yang hampir tidak memiliki apapun sehingga tidak mampu memenuhi kebutuhan pokok hidupnya.
