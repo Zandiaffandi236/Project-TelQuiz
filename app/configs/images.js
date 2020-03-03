@@ -11,6 +11,11 @@ const images = {
   pic5: require('../../assets/images/pic8.png'),
   pic6: require('../../assets/images/pic9.png'),
   pic7: require('../../assets/images/pic10.png'),
+  jerry: require('../../assets/images/jerry.png'),
+  zandi: require('../../assets/images/zandi.png'),
+  arul: require('../../assets/images/arul.png'),
+  nanda: require('../../assets/images/nanda.png'),
+  udin: require('../../assets/images/udin.png'),
 }
 
 export default images;

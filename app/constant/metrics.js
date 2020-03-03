@@ -67,6 +67,7 @@ const metrics = {
   doubleSection: scale(50),
   extraSection: scale(45),
   extraSection2: scale(90),
+  extraSection3: scale(180),
   horizontalLineHeight: 1,
   searchBarHeight: 30,
   //   screenWidth: x < y ? x : y,

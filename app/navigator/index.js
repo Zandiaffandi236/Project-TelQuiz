@@ -8,6 +8,6 @@ export default createAppContainer(
       Register: RegisterStack,
       Home: RootStack,
     },
-    {initialRouteName: 'Login'},
+    {initialRouteName: 'Home'},
   ),
 );

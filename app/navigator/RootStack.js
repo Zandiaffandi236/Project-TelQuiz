@@ -9,6 +9,7 @@ import Sejarahscreen from '../screen/Sejarahscreen/Sejarahscreen';
 import Penerimaanscreen from '../screen/Penerimaanscreen/Penerimaanscreen';
 import Hukumscreen from '../screen/Hukumscreen/Hukumscreen';
 import Macamscreen from '../screen/Macamscreen/Macamscreen';
+import Aboutscreen from '../screen/Aboutscreen/Aboutscreen';
 import { StatusBar } from 'react-native';
 
 export const LoginStack = createStackNavigator({
@@ -47,5 +48,8 @@ export const RootStack = createStackNavigator({
   },
   Activity: {
     screen: Activityscreen,
+  },
+  About: {
+    screen: Aboutscreen,
   }
 },{ initialRouteName: 'Home' ,headerMode: 'none', navigationOptions: { tabBarVisible: false } });

@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import { Image } from 'react-native'
 import { Container, Header, Title, Content, Footer, FooterTab, Button, Body, Icon, Text, View, Label } from 'native-base';
 import {SwitchActions, StackActions} from 'react-navigation';
+import YouTube from 'react-native-youtube'; 
 import IMAGES from '../../configs/images';
+import { scale } from '../../utils/scaling';
 import styles from './styles';
 
 export default class Homescreen extends Component {
@@ -24,13 +26,6 @@ export default class Homescreen extends Component {
   test = () => {
     const pushAction = StackActions.push({
       routeName: 'Learn'
-    });
-    this.props.navigation.dispatch(pushAction);
-  }
-
-  activity = () => {
-    const pushAction = StackActions.push({
-      routeName: 'Activity'
     });
     this.props.navigation.dispatch(pushAction);
   }
@@ -61,6 +56,21 @@ export default class Homescreen extends Component {
             <Text style={styles.textGreeting}>Hi Marzandi,</Text>
             <Text style={styles.textGreeting}>It's Time to Study!</Text>
           </View>
+          <View style={{width: scale(320),height: scale(180),marginLeft: scale(8),marginTop: scale(15),marginBottom: scale(20)
+                }}>
+          <YouTube 
+            apiKey= "AIzaSyAN5XuwDeAnf9qZXYLf7GKaYDqpPflOxSk"
+            videoId="4sj5f2aTm4o" // The YouTube video ID
+            play // control playback of video with true/false
+            // fullscreen// control whether the video should play in fullscreen or inline
+            loop // control whether the video should loop when ended
+            onReady={er => this.setState({ isReady: true })}
+            onChangeState={er => this.setState({ status: er.state })}
+            onChangeQuality={er => this.setState({ quality: er.quality })}
+            onError={er => this.setState({ error: er.error })}
+            style={{ width: scale(320), height: scale(180) }}
+          />
+          </View>
           <View style={styles.contentOption}>
             <Button style={styles.contentButton1} onPress={this.learn} >
               <Image source={IMAGES.pic1} style={styles.pic1}/>
@@ -72,15 +82,11 @@ export default class Homescreen extends Component {
               <Image source={IMAGES.pic3} style={styles.pic2}/>
             </Button>
           </View>
-          <Button onPress={this.back} style={styles.backButton}><Text>Back</Text></Button>
         </Content>
         <Footer style={styles.shadow}>
           <FooterTab style={styles.footer}>
             <Button>
                 <Icon name="home" style={styles.iconActive} />
-              </Button>
-              <Button onPress={this.activity}>
-                <Icon name="clock" style={styles.icon} />
               </Button>
               <Button onPress={this.profile}>
                 <Icon name="person" style={styles.icon} />
