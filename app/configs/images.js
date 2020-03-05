@@ -16,6 +16,12 @@ const images = {
   arul: require('../../assets/images/arul.png'),
   nanda: require('../../assets/images/nanda.png'),
   udin: require('../../assets/images/udin.png'),
+  video: require('../../assets/images/video.png'),
+  content: require('../../assets/images/content.png'),
+  arrow: require('../../assets/images/arrow.png'),
+  soal: require('../../assets/images/soal.png'),
+  jam: require('../../assets/images/jam.png'),
+  pilih: require('../../assets/images/pilih.png')
 }
 
 export default images;

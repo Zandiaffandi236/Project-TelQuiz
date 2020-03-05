@@ -9,7 +9,11 @@ import Sejarahscreen from '../screen/Sejarahscreen/Sejarahscreen';
 import Penerimaanscreen from '../screen/Penerimaanscreen/Penerimaanscreen';
 import Hukumscreen from '../screen/Hukumscreen/Hukumscreen';
 import Macamscreen from '../screen/Macamscreen/Macamscreen';
+import Helpscreen from '../screen/Helpscreen/Helpscreen';
 import Aboutscreen from '../screen/Aboutscreen/Aboutscreen';
+import Subpracticescreen from '../screen/Subpracticescreen/Subpracticescreen';
+import Subquizscreen from '../screen/Subquizscreen/Subquizscreen';
+import Sessionscreen from '../screen/Sessionscreen/Sessionscreen';
 import { StatusBar } from 'react-native';
 
 export const LoginStack = createStackNavigator({
@@ -21,6 +25,12 @@ export const LoginStack = createStackNavigator({
 export const RegisterStack = createStackNavigator({
   Register: {
     screen: Registerscreen,
+  }
+},{  headerMode: 'none', navigationOptions: { tabBarVisible: false } });
+
+export const SessionStack = createStackNavigator({
+  Session: {
+    screen: Sessionscreen,
   }
 },{  headerMode: 'none', navigationOptions: { tabBarVisible: false } });
 
@@ -51,5 +61,14 @@ export const RootStack = createStackNavigator({
   },
   About: {
     screen: Aboutscreen,
+  },
+  Help: {
+    screen: Helpscreen,
+  },
+  Subpractice: {
+    screen: Subpracticescreen,
+  },
+  Subquiz: {
+    screen: Subquizscreen,
   }
 },{ initialRouteName: 'Home' ,headerMode: 'none', navigationOptions: { tabBarVisible: false } });

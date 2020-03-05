@@ -95,6 +95,24 @@ const styles = StyleSheet.create({
     height: scale(40),
     marginLeft: METRICS.doubleBaseMargin,
     marginTop: METRICS.baseMargin
+  },
+  arrow: {
+    width: scale(20),
+    height: scale(20),
+    marginTop: METRICS.doubleBaseMargin,
+    marginLeft: scale(40)
+  },
+  arrow2: {
+    width: scale(20),
+    height: scale(20),
+    marginTop: METRICS.doubleBaseMargin,
+    marginLeft: scale(60)
+  },
+  arrow3: {
+    width: scale(20),
+    height: scale(20),
+    marginTop: METRICS.doubleBaseMargin,
+    marginLeft: scale(115)
   }
 });
 

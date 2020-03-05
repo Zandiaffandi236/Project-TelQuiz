@@ -29,11 +29,12 @@ const styles = StyleSheet.create({
   },
   textGreeting: {
     color: "#6971F7", 
-    fontSize: 17
+    fontSize: 17,
+    fontWeight: 'bold',
   },
   contentOption: {
     flexDirection: 'row', 
-    marginTop: METRICS.doubleBaseMargin
+    marginTop: METRICS.baseMargin
   },
   contentButton1: {
     width: METRICS.extraSection2, 
@@ -63,6 +64,25 @@ const styles = StyleSheet.create({
     marginBottom: METRICS.tripleSmallMargin,
     width: METRICS.doubleBaseMargin2,
     height: METRICS.doubleInputMargin
+  },
+  contentTitle: {
+    flexDirection: 'row',
+    height: scale(20),
+    width: scale(75),
+    marginTop: METRICS.doubleBaseMargin
+  },
+  contentImage: {
+    width: scale(15),
+    height: scale(15),
+    marginLeft: METRICS.baseMargin
+  },
+  contentText: {
+    fontSize: scale(15),
+    fontWeight: 'bold',
+    color: '#6971F7',
+    alignSelf: 'center',
+    marginLeft: METRICS.smallMargin,
+    marginBottom: METRICS.smallMargin
   }
 });
 

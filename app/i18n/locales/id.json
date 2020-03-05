@@ -4,6 +4,7 @@
   "camera": "Kamera",
   "cancel": "Kembali",
   "checkConnection": "Tidak ada koneksi. \nCek Koneksi internet anda.",
+  "content": "Konten",
   "country": "negara",
   "email": "Email",
   "error" : {
@@ -11,6 +12,7 @@
   },
   "fullname": "Fullname",
   "gallery": "Galeri",
+  "greeting": "Ayo Mulai Belajar!",
   "home": "Home",
   "loading": "Loading ...",
   "login": "Sudah punya akun?",
@@ -30,9 +32,11 @@
   "submit": "Submit",
   "signin": "SIGN IN",
   "signup": "SIGN UP",
+  "start": "MULAI",
   "tryAgain": "Coba Lagi",
   "username": "Username",
   "update": "Perbarui",
   "updateBody": "Harap perbarui aplikasi ke versi baru, \n untuk mendapatkan konten-konten terbaru",
-  "updateTitle": "Perbarui"  
+  "updateTitle": "Perbarui"  ,
+  "video": "Video"
 }

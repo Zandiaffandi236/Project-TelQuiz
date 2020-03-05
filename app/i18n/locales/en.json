@@ -4,6 +4,7 @@
   "camera": "Camera",
   "cancel": "Cancel",
   "checkConnection": "No internet connection found. \nCheck your connection.",
+  "content": "Content",
   "country": "country",
   "email": "Email",
   "error": {
@@ -11,6 +12,7 @@
   },
   "fullname": "Fullname",
   "gallery": "Gallery",
+  "greeting": "It's Time to Study!",
   "home": "Home",
   "loading": "Loading ...",
   "login": "Already have an account?",
@@ -30,9 +32,11 @@
   "signin": "SIGN IN",
   "signup": "SIGN UP",
   "submit": "Submit",
+  "start": "START",
   "tryAgain": "Try again",
   "username": "Username",
   "update": "Update",
   "updateBody": "Please update the application to the new version, \n to get the new contents",
-  "updateTitle": "Update"
+  "updateTitle": "Update",
+  "video": "Video"
 }

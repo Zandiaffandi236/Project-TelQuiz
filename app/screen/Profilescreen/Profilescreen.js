@@ -18,6 +18,13 @@ export default class Profilescreen extends Component {
     this.props.navigation.dispatch(pushAction);
   }
 
+  help = () => {
+    const pushAction = StackActions.push({
+      routeName: 'Help'
+    });
+    this.props.navigation.dispatch(pushAction);
+  }
+
   render() {
     return (
       <Container>
@@ -53,7 +60,7 @@ export default class Profilescreen extends Component {
                 <Icon name="home" style={styles.icon} />
               </Button>
               <Button>
-                <Icon name="person" style={styles.iconActive} />
+                <Icon name="settings" style={styles.iconActive} />
               </Button>
           </FooterTab>
         </Footer>
