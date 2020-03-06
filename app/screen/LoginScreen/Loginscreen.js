@@ -28,9 +28,12 @@ export default class loginScreen extends Component {
       password: password,
     };
     axios
-      .post('http://34.238.41.114:8080/api/users/login', payload)
+      .post('http://35.173.220.127:8080/api/users/login', payload)
       .then(async value => {
         await AsyncStorage.setItem('token', value.data.token);
+        await AsyncStorage.setItem('email', value.data.data.email);
+        await AsyncStorage.setItem('fullname', value.data.data.fullname);
+        await AsyncStorage.setItem('username', value.data.data.username);
         if (value.data.code === 200 ) {
           this.props.navigation.dispatch(
             SwitchActions.jumpTo({routeName: 'Home'}),

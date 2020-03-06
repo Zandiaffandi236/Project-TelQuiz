@@ -10,6 +10,7 @@
   "error" : {
     "timeOutConnection": "Koneksi timeout. silahkan coba beberapa saat lagi."
   },
+  "end": "SELESAI",
   "fullname": "Fullname",
   "gallery": "Galeri",
   "greeting": "Ayo Mulai Belajar!",
@@ -18,10 +19,12 @@
   "login": "Sudah punya akun?",
   "login2": "Masuk Disini!",
   "logout": "Logout",
+  "next": "Next",
   "oops": "Oops!",
   "option1": "Laporkan Masalah",
   "option2": "Kritik & Saran",
   "password": "Password",
+  "pembahasan": "Pembahasan",
   "phoneNumber": "Nomor telepon",
   "pleaseTryAgain": "Silahkan coba lagi",
   "rememberMe": "Remember me",

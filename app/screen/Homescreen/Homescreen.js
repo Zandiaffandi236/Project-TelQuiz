@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image } from 'react-native';
+import { Image, AsyncStorage } from 'react-native';
 import { Container, Header, Title, Content, Footer, FooterTab, Button, Body, Icon, Text, View, Label } from 'native-base';
 import {SwitchActions, StackActions} from 'react-navigation';
 import YouTube from 'react-native-youtube'; 
@@ -21,7 +21,16 @@ export default class Homescreen extends Component {
       isReady: false,
       status: '',
       quality: '',
+      name: '',
     };
+  }
+
+  componentDidMount() {
+    this.getParams();
+  }
+
+  getParams = async() => {
+    this.setState({name: await AsyncStorage.getItem('username')});
   }
 
   onSeek = seek => {
@@ -91,7 +100,7 @@ export default class Homescreen extends Component {
         </Header>
         <Content padder>
           <View style={styles.greeting}>
-            <Text style={styles.textGreeting}>Hi Marzandi,</Text>
+            <Text style={styles.textGreeting}>{"Hi " + this.state.name}</Text>
             <Text style={styles.textGreeting}>{I18n.t('greeting')}</Text>
           </View>
           <View style={styles.contentTitle}>

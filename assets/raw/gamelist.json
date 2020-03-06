@@ -1,0 +1,614 @@
+{
+	"games":[
+		{
+			"code":"1",
+			"quizzes":[
+				{
+					"code":"1",
+					"description":"World War I began in which year?",
+					"options":[
+						{
+							"code":"1",
+							"description":"1923"
+						},
+						{
+							"code":"2",
+							"description":"1938"
+						},
+						{
+							"code":"3",
+							"description":"1917"
+						},
+						{
+							"code":"4",
+							"description":"1914"
+						}
+					],
+					"quiz_true":"1914",
+					"quiz_answer":"The World War I began in 1914"
+				},
+				{
+					"code":"2",
+					"description":"The Magna Carta was published by the King of which country?",
+					"options":[
+						{
+							"code":"1",
+							"description":"France"
+						},
+						{
+							"code":"2",
+							"description":"Austria"
+						},
+						{
+							"code":"3",
+							"description":"Italy"
+						},
+						{
+							"code":"4",
+							"description":"England"
+						}
+					],
+					"quiz_true":"England",
+					"quiz_answer":"The Magna Carta was published by the King of England"
+				},
+				{
+					"code":"3",
+					"description":"The first successful printing press was developed by ...",
+					"options":[
+						{
+							"code":"1",
+							"description":"Johannes Gutenburg"
+						},
+						{
+							"code":"2",
+							"description":"Benjamin Franklin"
+						},
+						{
+							"code":"3",
+							"description":"Sir Isaac Newton"
+						},
+						{
+							"code":"4",
+							"description":"Martin Luther"
+						}
+					],
+					"quiz_true":"Johannes Gutenburg",
+					"quiz_answer":"The first successful printing press was developed by Johannes Gutenburg"
+				},
+				{
+					"code":"4",
+					"description":"Which Roman Emperor built a massive wall across Northern Britain in 122 A.D.?",
+					"options":[
+						{
+							"code":"1",
+							"description":"Marcus Aurelius"
+						},
+						{
+							"code":"2",
+							"description":"Hadrian"
+						},
+						{
+							"code":"3",
+							"description":"Nero"
+						},
+						{
+							"code":"4",
+							"description":"Augustus"
+						}
+					],
+					"quiz_true":"Hadrian",
+					"quiz_answer":"The Roman Emperor who built a massive wall across Northern Britain in 122 A.D. was Hadrian"
+				},
+				{
+					"code":"5",
+					"description":"Who was the first Western explorer to reach China?",
+					"options":[
+						{
+							"code":"1",
+							"description":"Magellan"
+						},
+						{
+							"code":"2",
+							"description":"Cook"
+						},
+						{
+							"code":"3",
+							"description":"Marco Polo"
+						},
+						{
+							"code":"4",
+							"description":"Sir Francis Drake"
+						}
+					],
+					"quiz_true":"Marco Polo",
+					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
+				},
+				{
+					"code":"5",
+					"description":"Who was the first Western explorer to reach China?",
+					"options":[
+						{
+							"code":"1",
+							"description":"Magellan"
+						},
+						{
+							"code":"2",
+							"description":"Cook"
+						},
+						{
+							"code":"3",
+							"description":"Marco Polo"
+						},
+						{
+							"code":"4",
+							"description":"Sir Francis Drake"
+						}
+					],
+					"quiz_true":"Marco Polo",
+					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
+				},
+				{
+					"code":"5",
+					"description":"Who was the first Western explorer to reach China?",
+					"options":[
+						{
+							"code":"1",
+							"description":"Magellan"
+						},
+						{
+							"code":"2",
+							"description":"Cook"
+						},
+						{
+							"code":"3",
+							"description":"Marco Polo"
+						},
+						{
+							"code":"4",
+							"description":"Sir Francis Drake"
+						}
+					],
+					"quiz_true":"Marco Polo",
+					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
+				},
+				{
+					"code":"5",
+					"description":"Who was the first Western explorer to reach China?",
+					"options":[
+						{
+							"code":"1",
+							"description":"Magellan"
+						},
+						{
+							"code":"2",
+							"description":"Cook"
+						},
+						{
+							"code":"3",
+							"description":"Marco Polo"
+						},
+						{
+							"code":"4",
+							"description":"Sir Francis Drake"
+						}
+					],
+					"quiz_true":"Marco Polo",
+					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
+				},
+				{
+					"code":"5",
+					"description":"Who was the first Western explorer to reach China?",
+					"options":[
+						{
+							"code":"1",
+							"description":"Magellan"
+						},
+						{
+							"code":"2",
+							"description":"Cook"
+						},
+						{
+							"code":"3",
+							"description":"Marco Polo"
+						},
+						{
+							"code":"4",
+							"description":"Sir Francis Drake"
+						}
+					],
+					"quiz_true":"Marco Polo",
+					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
+				},
+				{
+					"code":"5",
+					"description":"Who was the first Western explorer to reach China?",
+					"options":[
+						{
+							"code":"1",
+							"description":"Magellan"
+						},
+						{
+							"code":"2",
+							"description":"Cook"
+						},
+						{
+							"code":"3",
+							"description":"Marco Polo"
+						},
+						{
+							"code":"4",
+							"description":"Sir Francis Drake"
+						}
+					],
+					"quiz_true":"Marco Polo",
+					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
+				},
+				{
+					"code":"5",
+					"description":"Who was the first Western explorer to reach China?",
+					"options":[
+						{
+							"code":"1",
+							"description":"Magellan"
+						},
+						{
+							"code":"2",
+							"description":"Cook"
+						},
+						{
+							"code":"3",
+							"description":"Marco Polo"
+						},
+						{
+							"code":"4",
+							"description":"Sir Francis Drake"
+						}
+					],
+					"quiz_true":"Marco Polo",
+					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
+				},
+				{
+					"code":"5",
+					"description":"Who was the first Western explorer to reach China?",
+					"options":[
+						{
+							"code":"1",
+							"description":"Magellan"
+						},
+						{
+							"code":"2",
+							"description":"Cook"
+						},
+						{
+							"code":"3",
+							"description":"Marco Polo"
+						},
+						{
+							"code":"4",
+							"description":"Sir Francis Drake"
+						}
+					],
+					"quiz_true":"Marco Polo",
+					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
+				},
+				{
+					"code":"5",
+					"description":"Who was the first Western explorer to reach China?",
+					"options":[
+						{
+							"code":"1",
+							"description":"Magellan"
+						},
+						{
+							"code":"2",
+							"description":"Cook"
+						},
+						{
+							"code":"3",
+							"description":"Marco Polo"
+						},
+						{
+							"code":"4",
+							"description":"Sir Francis Drake"
+						}
+					],
+					"quiz_true":"Marco Polo",
+					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
+				},
+				{
+					"code":"5",
+					"description":"Who was the first Western explorer to reach China?",
+					"options":[
+						{
+							"code":"1",
+							"description":"Magellan"
+						},
+						{
+							"code":"2",
+							"description":"Cook"
+						},
+						{
+							"code":"3",
+							"description":"Marco Polo"
+						},
+						{
+							"code":"4",
+							"description":"Sir Francis Drake"
+						}
+					],
+					"quiz_true":"Marco Polo",
+					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
+				},
+				{
+					"code":"5",
+					"description":"Who was the first Western explorer to reach China?",
+					"options":[
+						{
+							"code":"1",
+							"description":"Magellan"
+						},
+						{
+							"code":"2",
+							"description":"Cook"
+						},
+						{
+							"code":"3",
+							"description":"Marco Polo"
+						},
+						{
+							"code":"4",
+							"description":"Sir Francis Drake"
+						}
+					],
+					"quiz_true":"Marco Polo",
+					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
+				}
+			]
+		},
+		{
+			"code":"2",
+			"quizzes":[
+				{
+					"code":"1",
+					"description":"Masalah zakat dibicarakan dalam bidang…",
+					"options":[
+						{
+							"code":"1",
+							"description":"Muamalah"
+						},
+						{
+							"code":"2",
+							"description":"Ibadah"
+						},
+						{
+							"code":"3",
+							"description":"Akidah"
+						},
+						{
+							"code":"4",
+							"description":"Akhlak"
+						}
+					],
+					"quiz_true":"Ibadah",
+					"quiz_answer":"Karena dalam sebuah hadits dari Ibnu Umar, bahwa Rasulullah menyebutkan bahwa ``Islam dibangun di atas 5 tiang pokok, yaitu kesaksian bahwa tiada Tuhan selain Allah dan Muhammad Rasulullah, mendirikan shalat, menunaikan zakat, berpuasa pada bulan Ramaduan, dan naik haji bagi yang mampu.``"
+				},
+				{
+					"code":"2",
+					"description":"Zakat merupakan ketentuan Allah yang berhubungan dengan....",
+					"options":[
+						{
+							"code":"1",
+							"description":"Harta benda"
+						},
+						{
+							"code":"2",
+							"description":"Jasmani"
+						},
+						{
+							"code":"3",
+							"description":"Jiwa"
+						},
+						{
+							"code":"4",
+							"description":"Kedudukan"
+						}
+					],
+					"quiz_true":"Harta benda",
+					"quiz_answer":"karena dalam pengertiannya sendiri zakat adalah harta tertentu yang dikeluarkan apabila telah mencapai syarat yang diatur sesuai aturan agama, dikeluarkan kepada 8 asnaf penerima zakat. Menurut Bahasa kata “zakat” berarti tumbuh, berkembang, subur atau bertambah."
+				},
+				{
+					"code":"3",
+					"description":"Zakat fitrah termasuk ibadah yang hukumnya…",
+					"options":[
+						{
+							"code":"1",
+							"description":"Wajib ain"
+						},
+						{
+							"code":"2",
+							"description":"Wajin Kifayah"
+						},
+						{
+							"code":"3",
+							"description":"Sunnah"
+						},
+						{
+							"code":"4",
+							"description":"Sunnah Muakad"
+						}
+					],
+					"quiz_true":"Wajib ain",
+					"quiz_answer":"Dengan menunaikan zakat, seseorang telah mewujudkan rasa saling tolong menolong, rasa peduli, rasa menghormati juga menjalin hubungan baik dengan saudara-saudara sesamanya yang membutuhkan pertolongan juga bantuannya. Karena inilah, zakat adalah perkara wajib dalam Islam."
+				},
+				{
+					"code":"4",
+					"description":"Salah satu pengertian zakat menurut bahasa adalah ....",
+					"options":[
+						{
+							"code":"1",
+							"description":"Menukarkan"
+						},
+						{
+							"code":"2",
+							"description":"Menambah"
+						},
+						{
+							"code":"3",
+							"description":"Menyisihkan harta"
+						},
+						{
+							"code":"4",
+							"description":"Mensucikan"
+						}
+					],
+					"quiz_true":"Mensucikan",
+					"quiz_answer":"Zakat dari segi bahasa berarti 'bersih', 'suci', 'subur', 'berkat' dan 'berkembang'. Menurut ketentuan yang telah ditetapkan oleh syariat Islam."
+				},
+				{
+					"code":"5",
+					"description":"Zakat yang dikeluarkan untuk membersihkan jiwa seseorang disebut zakat ...",
+					"options":[
+						{
+							"code":"1",
+							"description":"Harta"
+						},
+						{
+							"code":"2",
+							"description":"Profesi"
+						},
+						{
+							"code":"3",
+							"description":"Fitrah"
+						},
+						{
+							"code":"4",
+							"description":"Mal"
+						}
+					],
+					"quiz_true":"Fitrah",
+					"quiz_answer":"karena dari pengertiannya sendiri, zakat fitrah adalah zakat  yang berguna untuk membersihkan harta dan sebagai pelengkap ibadah puasa kita. Tanpa zakat fitrah, puasa kita tidak terlengkapi."
+				},
+				{
+					"code":"6",
+					"description":"Berikut ini yang bukan merupakan arti dari zakat secara bahasa adalah ...",
+					"options":[
+						{
+							"code":"1",
+							"description":"Tumbuh"
+						},
+						{
+							"code":"2",
+							"description":"Berkah"
+						},
+						{
+							"code":"3",
+							"description":"Kaya"
+						},
+						{
+							"code":"4",
+							"description":"Mengeluarkan"
+						}
+					],
+					"quiz_true":"Kaya",
+					"quiz_answer":"Zakat dari segi bahasa berarti 'bersih', 'suci', 'subur', 'berkat' dan 'berkembang'. Menurut ketentuan yang telah ditetapkan oleh syariat Islam."
+				},
+				{
+					"code":"7",
+					"description":"Hukum mengeluarkan zakat mal adalah bagi yang sudah memenuhi syarat wajib adalah ...",
+					"options":[
+						{
+							"code":"1",
+							"description":"Wajib"
+						},
+						{
+							"code":"2",
+							"description":"Mubah"
+						},
+						{
+							"code":"3",
+							"description":"Sunnah"
+						},
+						{
+							"code":"4",
+							"description":"Makhruh"
+						}
+					],
+					"quiz_true":"Wajib",
+					"quiz_answer":"Allah swt mewajibkan kita mengeluarkan zakat mal apabila syarat wajibnya terlah terpenuhi. Oleh karena itu, hukum zakat mal adalah wajib."
+				},
+				{
+					"code":"8",
+					"description":"Pengertian mustahik zakat adalah ...",
+					"options":[
+						{
+							"code":"1",
+							"description":"Orang-orang yang mampu untuk mengeluarkan"
+						},
+						{
+							"code":"2",
+							"description":"Orang yang berkewajiban untuk melaksanakan zakat"
+						},
+						{
+							"code":"3",
+							"description":"Orang yang berhak untuk menerima zakat"
+						},
+						{
+							"code":"4",
+							"description":"Zakat yang harus dibayarkan kepada yang berhak menerimanya"
+						}
+					],
+					"quiz_true":"Orang yang berhak untuk menerima zakat",
+					"quiz_answer":"mustahik adalah istilah untuk orang yang berhak menerima zakat"
+				},
+				{
+					"code":"9",
+					"description":"Hukum mengeluarkan zakat fitrah adalah …",
+					"options":[
+						{
+							"code":"1",
+							"description":"Sunnah"
+						},
+						{
+							"code":"2",
+							"description":"Wajib"
+						},
+						{
+							"code":"3",
+							"description":"Haram"
+						},
+						{
+							"code":"4",
+							"description":"Makhruh"
+						}
+					],
+					"quiz_true":"Wajib",
+					"quiz_answer":"“Rasulullah ﷺ mewajibkan zakat fitrah dari Ramadhan atas manusia, satu sha’ dari kurma atau gandum, atas setiap orang merdeka, hamba sahaya, laki-laki atau perempuan dari orang-orang Islam.”"
+				},
+				{
+					"code":"10",
+					"description":"Zakat yang bertujuan untuk membersihkan harta adalah  …",
+					"options":[
+						{
+							"code":"1",
+							"description":"Zakat mal"
+						},
+						{
+							"code":"2",
+							"description":"Zakat fitrah"
+						},
+						{
+							"code":"3",
+							"description":"Zakat profesi"
+						},
+						{
+							"code":"4",
+							"description":"Zakat rikaz"
+						}
+					],
+					"quiz_true":"Zakat mal",
+					"quiz_answer":"Zakat mal adalah zakat yang dikenakan atas harta yang dimiliki oleh individu dengan syarat-syarat dan ketentuan-ketentuan yang telah ditetapkan secara syarak."
+				}
+			]
+		}
+	]
+}

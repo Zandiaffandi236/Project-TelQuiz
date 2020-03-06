@@ -1,5 +1,5 @@
 import {createAppContainer, createSwitchNavigator} from 'react-navigation';
-import { LoginStack,RegisterStack, RootStack } from './RootStack';
+import { LoginStack,RegisterStack, RootStack, SessionStack } from './RootStack';
 
 export default createAppContainer(
   createSwitchNavigator(
@@ -7,7 +7,8 @@ export default createAppContainer(
       Login: LoginStack,
       Register: RegisterStack,
       Home: RootStack,
+      Session: SessionStack,
     },
-    {initialRouteName: 'Home'},
+    {initialRouteName: 'Session'},
   ),
 );

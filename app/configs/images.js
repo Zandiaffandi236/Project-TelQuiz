@@ -21,7 +21,8 @@ const images = {
   arrow: require('../../assets/images/arrow.png'),
   soal: require('../../assets/images/soal.png'),
   jam: require('../../assets/images/jam.png'),
-  pilih: require('../../assets/images/pilih.png')
+  pilih: require('../../assets/images/pilih.png'),
+  piala: require('../../assets/images/piala.png'),
 }
 
 export default images;

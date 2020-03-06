@@ -16,6 +16,13 @@ export default class Subpracticescreen extends Component {
     this.props.navigation.dispatch(popAction);
   }
 
+  start = () => {
+    const pushAction = StackActions.push({
+      routeName: 'Practice'
+    });
+    this.props.navigation.dispatch(pushAction);
+  }
+
   render() {
     return(
       <Container>

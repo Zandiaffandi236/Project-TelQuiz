@@ -32,13 +32,13 @@ export default class loginScreen extends Component {
       fullname: fullname,
     };
     axios
-      .post('http://34.238.41.114:8080/api/users/register', payload)
+      .post('http://35.173.220.127:8080/api/users/register', payload)
       .then(async value => {
-        console.log(value.data.code);
-        await AsyncStorage.setItem('token', value.data.token);
-        if (value.data.code === 200 ) {
+        console.log(value.data);
+        // await AsyncStorage.setItem('token', value.data.token);
+        if (value.data.code === 201 ) {
           this.props.navigation.dispatch(
-            SwitchActions.jumpTo({routeName: 'Home'}),
+            SwitchActions.jumpTo({routeName: 'Login'}),
             );
           ToastAndroid.show('Success', ToastAndroid.SHORT);
         } else {

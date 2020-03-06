@@ -1,11 +1,27 @@
 import React, { Component } from 'react';
 import { Container, Header, Title, Content, Footer, FooterTab, Button, Left, Right, Body, Icon, Text } from 'native-base';
-import { StackActions } from 'react-navigation';
-import {View} from 'react-native';
+import { StackActions, SwitchActions } from 'react-navigation';
+import {View, AsyncStorage} from 'react-native';
 import I18n from '../../i18n/index';
 import styles from './styles';
 
 export default class Profilescreen extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      fullname: '',
+      email: '',
+    };
+  }
+
+  componentDidMount() {
+    this.getParams();
+  }
+
+  getParams = async() => {
+    this.setState({fullname: await AsyncStorage.getItem('fullname')});
+    this.setState({email: await AsyncStorage.getItem('email')});
+  }
 
   home = () => {
     this.props.navigation.dispatch(StackActions.popToTop());
@@ -25,6 +41,14 @@ export default class Profilescreen extends Component {
     this.props.navigation.dispatch(pushAction);
   }
 
+  logout = async() => {
+    await AsyncStorage.removeItem('token');
+    await AsyncStorage.removeItem('email');
+    await AsyncStorage.removeItem('fullname');
+    await AsyncStorage.removeItem('username');
+    this.props.navigation.dispatch(SwitchActions.jumpTo({routeName: 'Login'}));
+  }
+
   render() {
     return (
       <Container>
@@ -35,8 +59,8 @@ export default class Profilescreen extends Component {
         </Header>
         <Content>
           <View style={styles.heading}>
-            <Text style={styles.name}>Marzandi Zahran</Text>
-            <Text style={styles.email}>marzandi.leta@gmail.com</Text>
+            <Text style={styles.name}>{this.state.fullname}</Text>
+            <Text style={styles.email}>{this.state.email}</Text>
           </View>
           <Button iconRight style={styles.iconButton} onPress={this.about}>
               <Text uppercase={false} style={styles.textButton}>
@@ -50,7 +74,7 @@ export default class Profilescreen extends Component {
               </Text>
               <Icon style={styles.buttonIcon} name="arrow-forward" />
             </Button>
-            <Button block style={styles.homeButton} onPress={this.back}>
+            <Button block style={styles.homeButton} onPress={this.logout}>
             <Text>{I18n.t('logout')}</Text>
           </Button>
         </Content>

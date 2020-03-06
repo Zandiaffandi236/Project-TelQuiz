@@ -10,10 +10,12 @@
   "error": {
     "timeOutConnection": "Connection timeout. Please try again later."
   },
+  "end": "FINISH",
   "fullname": "Fullname",
   "gallery": "Gallery",
   "greeting": "It's Time to Study!",
   "home": "Home",
+  "next": "Next",
   "loading": "Loading ...",
   "login": "Already have an account?",
   "login2": "Login Here!",
@@ -22,6 +24,7 @@
   "option1": "Report Problem",
   "option2": "FeedBack",
   "password": "Password",
+  "pembahasan": "Discussion",
   "phoneNumber": "Phone number",
   "pleaseTryAgain": "Please try again",
   "rememberMe": "Remember me",
