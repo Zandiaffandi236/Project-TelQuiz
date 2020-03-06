@@ -15,6 +15,7 @@ import Subpracticescreen from '../screen/Subpracticescreen/Subpracticescreen';
 import Subquizscreen from '../screen/Subquizscreen/Subquizscreen';
 import Sessionscreen from '../screen/Sessionscreen/Sessionscreen';
 import Scorescreen from '../screen/Scorescreen/Scorescreen';
+import ScoreQuizscreen from '../screen/ScoreQuizscreen/ScoreQuizscreen';
 import Quizscreen from '../screen/Quizscreen/Quizscreen';
 import Practicescreen from '../screen/Practicescreen/Practicescreen';
 import Pembahasanscreen from '../screen/Pembahasanscreen/Pembahasanscreen';
@@ -77,6 +78,9 @@ export const RootStack = createStackNavigator({
   },
   Score: {
     screen: Scorescreen,
+  },
+  ScoreQuiz: {
+    screen: ScoreQuizscreen,
   },
   Quiz: {
     screen: Quizscreen,

@@ -5,362 +5,362 @@
 			"quizzes":[
 				{
 					"code":"1",
-					"description":"World War I began in which year?",
+					"description":"Orang yang bertanggung jawab untuk membayar zakat fitrah dalam satu keluarga ...",
 					"options":[
 						{
 							"code":"1",
-							"description":"1923"
+							"description":"Kakek"
 						},
 						{
 							"code":"2",
-							"description":"1938"
+							"description":"Orang dewasa"
 						},
 						{
 							"code":"3",
-							"description":"1917"
+							"description":"Kepala keluarga"
 						},
 						{
 							"code":"4",
-							"description":"1914"
+							"description":"Nenek"
 						}
 					],
-					"quiz_true":"1914",
+					"quiz_true":"Kepala keluarga",
 					"quiz_answer":"The World War I began in 1914"
 				},
 				{
 					"code":"2",
-					"description":"The Magna Carta was published by the King of which country?",
+					"description":"Orang yang harus mengeluarkan zakat dalam istilah syara' adalah ...",
 					"options":[
 						{
 							"code":"1",
-							"description":"France"
+							"description":"Muzaki"
 						},
 						{
 							"code":"2",
-							"description":"Austria"
+							"description":"Mustahik"
 						},
 						{
 							"code":"3",
-							"description":"Italy"
+							"description":"Nishab"
 						},
 						{
 							"code":"4",
-							"description":"England"
+							"description":"Haul"
 						}
 					],
-					"quiz_true":"England",
+					"quiz_true":"Muzaki",
 					"quiz_answer":"The Magna Carta was published by the King of England"
 				},
 				{
 					"code":"3",
-					"description":"The first successful printing press was developed by ...",
+					"description":"Segala sesuatu yang harus ada ketika seseorang melaksanakan zakat disebut dengan ...",
 					"options":[
 						{
 							"code":"1",
-							"description":"Johannes Gutenburg"
+							"description":"Syarat sah zakat"
 						},
 						{
 							"code":"2",
-							"description":"Benjamin Franklin"
+							"description":"Syarat wajib zakat"
 						},
 						{
 							"code":"3",
-							"description":"Sir Isaac Newton"
+							"description":"Syarat rukun zakat"
 						},
 						{
 							"code":"4",
-							"description":"Martin Luther"
+							"description":"Rukun zakat"
 						}
 					],
-					"quiz_true":"Johannes Gutenburg",
+					"quiz_true":"Syarat wajib zakat",
 					"quiz_answer":"The first successful printing press was developed by Johannes Gutenburg"
 				},
 				{
 					"code":"4",
-					"description":"Which Roman Emperor built a massive wall across Northern Britain in 122 A.D.?",
+					"description":"Zakat yang dikeluarkan setelah kita berpuasa di bulan Ramadan adalah …",
 					"options":[
 						{
 							"code":"1",
-							"description":"Marcus Aurelius"
+							"description":"Zakat mal"
 						},
 						{
 							"code":"2",
-							"description":"Hadrian"
+							"description":"Zakat fitrah"
 						},
 						{
 							"code":"3",
-							"description":"Nero"
+							"description":"Zakat profesi"
 						},
 						{
 							"code":"4",
-							"description":"Augustus"
+							"description":"Zakat perniagaan"
 						}
 					],
-					"quiz_true":"Hadrian",
+					"quiz_true":"Zakat fitrah",
 					"quiz_answer":"The Roman Emperor who built a massive wall across Northern Britain in 122 A.D. was Hadrian"
 				},
 				{
 					"code":"5",
-					"description":"Who was the first Western explorer to reach China?",
+					"description":"Zakat fitrah dikeluarkan oleh setiap jiwa sebesar …",
 					"options":[
 						{
 							"code":"1",
-							"description":"Magellan"
+							"description":"2,5 persen"
 						},
 						{
 							"code":"2",
-							"description":"Cook"
+							"description":"2,5 liter"
 						},
 						{
 							"code":"3",
-							"description":"Marco Polo"
+							"description":"2,5 kg"
 						},
 						{
 							"code":"4",
-							"description":"Sir Francis Drake"
+							"description":"2,5 ons"
 						}
 					],
-					"quiz_true":"Marco Polo",
+					"quiz_true":"2,5 kg",
+					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
+				},
+				{
+					"code":"6",
+					"description":"Berikut yang bukan merupakan harta yang wajib dizakati adalah …",
+					"options":[
+						{
+							"code":"1",
+							"description":"Binatang ternak"
+						},
+						{
+							"code":"2",
+							"description":"Harta perniagaan"
+						},
+						{
+							"code":"3",
+							"description":"Emas dan perak"
+						},
+						{
+							"code":"4",
+							"description":"Semua jawaban salah"
+						}
+					],
+					"quiz_true":"Semua jawaban salah",
+					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
+				},
+				{
+					"code":"7",
+					"description":"Membersihkan diri dan harta yang dimiliki dengan mengeluarkannya adalah pengertian dari  …",
+					"options":[
+						{
+							"code":"1",
+							"description":"Puasa"
+						},
+						{
+							"code":"2",
+							"description":"Zakat"
+						},
+						{
+							"code":"3",
+							"description":"Infak"
+						},
+						{
+							"code":"4",
+							"description":"Sedekah"
+						}
+					],
+					"quiz_true":"Zakat",
+					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
+				},
+				{
+					"code":"8",
+					"description":"Orang yang mengumpulkan dan membagikan zakat disebut….",
+					"options":[
+						{
+							"code":"1",
+							"description":"Mualaf"
+						},
+						{
+							"code":"2",
+							"description":"Amil"
+						},
+						{
+							"code":"3",
+							"description":"Muzaqi"
+						},
+						{
+							"code":"4",
+							"description":"Gharimin"
+						}
+					],
+					"quiz_true":"Amil",
+					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
+				},
+				{
+					"code":"9",
+					"description":"Orang yang memiliki hak untuk menerima zakat disebut …",
+					"options":[
+						{
+							"code":"1",
+							"description":"Musadiq zakat"
+						},
+						{
+							"code":"2",
+							"description":"Mustahik zakat"
+						},
+						{
+							"code":"3",
+							"description":"Muzakki"
+						},
+						{
+							"code":"4",
+							"description":"Amil zakat"
+						}
+					],
+					"quiz_true":"Mustahik zakat",
+					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
+				},
+				{
+					"code":"10",
+					"description":"Nisab untuk zakat harta yang berupa emas adalah …. gram",
+					"options":[
+						{
+							"code":"1",
+							"description":"93,1"
+						},
+						{
+							"code":"2",
+							"description":"100,9"
+						},
+						{
+							"code":"3",
+							"description":"85"
+						},
+						{
+							"code":"4",
+							"description":"91,2"
+						}
+					],
+					"quiz_true":"85",
+					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
+				},
+				{
+					"code":"11",
+					"description":"Pak Ahmad memiliki sebuah peternakan kambing yang berjumlah 100 ekor, maka Pak Ahmad wajib mengeluarkan zakat sebesar …",
+					"options":[
+						{
+							"code":"1",
+							"description":"2 ekor kambing betina umur 2 tahun"
+						},
+						{
+							"code":"2",
+							"description":"2 ekor domba betina umur 2 tahun"
+						},
+						{
+							"code":"3",
+							"description":"1 ekor kambing betina umur 2 tahun"
+						},
+						{
+							"code":"4",
+							"description":"1 ekor domba betina umur 2 tahun"
+						}
+					],
+					"quiz_true":"1 ekor kambing betina umur 2 tahun",
+					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
+				},
+				{
+					"code":"12",
+					"description":"Keluarga Khalid terdiri dari 10 orang,zakat fitrah yang wajib dikeluarkan adalah ….",
+					"options":[
+						{
+							"code":"1",
+							"description":"10"
+						},
+						{
+							"code":"2",
+							"description":"20"
+						},
+						{
+							"code":"3",
+							"description":"30"
+						},
+						{
+							"code":"4",
+							"description":"31"
+						}
+					],
+					"quiz_true":"30",
+					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
+				},
+				{
+					"code":"13",
+					"description":"Perintah tentang zakat terdapat pada surat…..",
+					"options":[
+						{
+							"code":"1",
+							"description":"Q.S. Al-Baqarah : 2"
+						},
+						{
+							"code":"2",
+							"description":"Q.S. At-Taubah : 11"
+						},
+						{
+							"code":"3",
+							"description":"Q.S. Al-Imran : 7"
+						},
+						{
+							"code":"4",
+							"description":"Q.S. At-Taubah : 21"
+						}
+					],
+					"quiz_true":"Q.S. At-Taubah : 11",
+					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
+				},
+				{
+					"code":"14",
+					"description":"Berikut ini yang bukan syarat harta yang wajib di zakatkan adalah ….",
+					"options":[
+						{
+							"code":"1",
+							"description":"Pemilik harta beragama islam"
+						},
+						{
+							"code":"2",
+							"description":"Harta yang dikeluarkan dimiliki secara penuh"
+						},
+						{
+							"code":"3",
+							"description":"Telah mencapai nizab"
+						},
+						{
+							"code":"4",
+							"description":"Barang temuan yang belum genap 1 tahun"
+						}
+					],
+					"quiz_true":"Barang temuan yang belum genap 1 tahun",
 					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
 				},
 				{
 					"code":"5",
-					"description":"Who was the first Western explorer to reach China?",
+					"description":"Waktu yang dilarang untuk membayar zakat fitrah yaitu pada saat….",
 					"options":[
 						{
 							"code":"1",
-							"description":"Magellan"
+							"description":"Sejak awal memasuki bulan ramadhan"
 						},
 						{
 							"code":"2",
-							"description":"Cook"
+							"description":"Sehari sebelum hari raya idul fitri"
 						},
 						{
 							"code":"3",
-							"description":"Marco Polo"
+							"description":"saat matahari terbenam pada malam idul fitri"
 						},
 						{
 							"code":"4",
-							"description":"Sir Francis Drake"
+							"description":"1 hari setelah hari raya idul fitri"
 						}
 					],
-					"quiz_true":"Marco Polo",
-					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
-				},
-				{
-					"code":"5",
-					"description":"Who was the first Western explorer to reach China?",
-					"options":[
-						{
-							"code":"1",
-							"description":"Magellan"
-						},
-						{
-							"code":"2",
-							"description":"Cook"
-						},
-						{
-							"code":"3",
-							"description":"Marco Polo"
-						},
-						{
-							"code":"4",
-							"description":"Sir Francis Drake"
-						}
-					],
-					"quiz_true":"Marco Polo",
-					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
-				},
-				{
-					"code":"5",
-					"description":"Who was the first Western explorer to reach China?",
-					"options":[
-						{
-							"code":"1",
-							"description":"Magellan"
-						},
-						{
-							"code":"2",
-							"description":"Cook"
-						},
-						{
-							"code":"3",
-							"description":"Marco Polo"
-						},
-						{
-							"code":"4",
-							"description":"Sir Francis Drake"
-						}
-					],
-					"quiz_true":"Marco Polo",
-					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
-				},
-				{
-					"code":"5",
-					"description":"Who was the first Western explorer to reach China?",
-					"options":[
-						{
-							"code":"1",
-							"description":"Magellan"
-						},
-						{
-							"code":"2",
-							"description":"Cook"
-						},
-						{
-							"code":"3",
-							"description":"Marco Polo"
-						},
-						{
-							"code":"4",
-							"description":"Sir Francis Drake"
-						}
-					],
-					"quiz_true":"Marco Polo",
-					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
-				},
-				{
-					"code":"5",
-					"description":"Who was the first Western explorer to reach China?",
-					"options":[
-						{
-							"code":"1",
-							"description":"Magellan"
-						},
-						{
-							"code":"2",
-							"description":"Cook"
-						},
-						{
-							"code":"3",
-							"description":"Marco Polo"
-						},
-						{
-							"code":"4",
-							"description":"Sir Francis Drake"
-						}
-					],
-					"quiz_true":"Marco Polo",
-					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
-				},
-				{
-					"code":"5",
-					"description":"Who was the first Western explorer to reach China?",
-					"options":[
-						{
-							"code":"1",
-							"description":"Magellan"
-						},
-						{
-							"code":"2",
-							"description":"Cook"
-						},
-						{
-							"code":"3",
-							"description":"Marco Polo"
-						},
-						{
-							"code":"4",
-							"description":"Sir Francis Drake"
-						}
-					],
-					"quiz_true":"Marco Polo",
-					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
-				},
-				{
-					"code":"5",
-					"description":"Who was the first Western explorer to reach China?",
-					"options":[
-						{
-							"code":"1",
-							"description":"Magellan"
-						},
-						{
-							"code":"2",
-							"description":"Cook"
-						},
-						{
-							"code":"3",
-							"description":"Marco Polo"
-						},
-						{
-							"code":"4",
-							"description":"Sir Francis Drake"
-						}
-					],
-					"quiz_true":"Marco Polo",
-					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
-				},
-				{
-					"code":"5",
-					"description":"Who was the first Western explorer to reach China?",
-					"options":[
-						{
-							"code":"1",
-							"description":"Magellan"
-						},
-						{
-							"code":"2",
-							"description":"Cook"
-						},
-						{
-							"code":"3",
-							"description":"Marco Polo"
-						},
-						{
-							"code":"4",
-							"description":"Sir Francis Drake"
-						}
-					],
-					"quiz_true":"Marco Polo",
-					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
-				},
-				{
-					"code":"5",
-					"description":"Who was the first Western explorer to reach China?",
-					"options":[
-						{
-							"code":"1",
-							"description":"Magellan"
-						},
-						{
-							"code":"2",
-							"description":"Cook"
-						},
-						{
-							"code":"3",
-							"description":"Marco Polo"
-						},
-						{
-							"code":"4",
-							"description":"Sir Francis Drake"
-						}
-					],
-					"quiz_true":"Marco Polo",
-					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
-				},
-				{
-					"code":"5",
-					"description":"Who was the first Western explorer to reach China?",
-					"options":[
-						{
-							"code":"1",
-							"description":"Magellan"
-						},
-						{
-							"code":"2",
-							"description":"Cook"
-						},
-						{
-							"code":"3",
-							"description":"Marco Polo"
-						},
-						{
-							"code":"4",
-							"description":"Sir Francis Drake"
-						}
-					],
-					"quiz_true":"Marco Polo",
+					"quiz_true":"1 hari setelah hari raya idul fitri",
 					"quiz_answer":"The first Western explorer to reach China was Marco Polo"
 				}
 			]

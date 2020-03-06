@@ -36,7 +36,7 @@ export default class Quizscreen extends Component {
       const AllAnswer = this.state.Answer
       const AllTrueAnswer = this.state.TrueAnswer
       const pushAction = StackActions.push({
-        routeName: 'Score',
+        routeName: 'ScoreQuiz',
         params: {AllAnswer, AllTrueAnswer}
       });
       this.props.navigation.dispatch(pushAction);
