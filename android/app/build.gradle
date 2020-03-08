@@ -127,8 +127,17 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
+    signingConfigs {
+    release {
+        storeFile file('your_key_name.keystore')
+        storePassword 'marzandi23juni2002'
+        keyAlias 'your_key_alias'
+        keyPassword 'zandi23juni2002'
+    }
+  }
+
     defaultConfig {
-        applicationId "com.ebook"
+        applicationId "com.smktelkom.zakat"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -160,6 +169,7 @@ android {
             signingConfig signingConfigs.debug
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            signingConfig signingConfigs.release
         }
     }
     // applicationVariants are e.g. debug, release

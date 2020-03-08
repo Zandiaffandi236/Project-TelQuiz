@@ -1,4 +1,4 @@
-package com.ebook;
+package com.smktelkom.zakat;
 
 import android.app.Application;
 import android.content.Context;

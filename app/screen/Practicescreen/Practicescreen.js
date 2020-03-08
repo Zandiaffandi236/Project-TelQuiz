@@ -7,6 +7,7 @@ import {View, TouchableOpacity, ScrollView} from 'react-native';
 import styles from './styles';
 import I18n from '../../i18n/index';
 import Quizdata from '../../../assets/raw/gamelist.json';
+import {Alert} from 'react-native';
 
 export default class Practicescreen extends Component {
   constructor(props) {
@@ -29,6 +30,17 @@ export default class Practicescreen extends Component {
       TrueAnswer: jawaban
     })
   }
+
+  isFinished = async () => {
+    const AllAnswer = this.state.Answer
+      const AllTrueAnswer = this.state.TrueAnswer
+      const pushAction = StackActions.push({
+        routeName: 'ScoreQuiz',
+        params: {AllAnswer, AllTrueAnswer}
+      });
+      this.props.navigation.dispatch(pushAction);
+      Alert('Finished');
+  };
 
   next = async () => {
     if (this.state.Num + 1 === this.state.Quiz.length){
@@ -61,7 +73,7 @@ export default class Practicescreen extends Component {
           <CountDown
             until={60 * 30}
             size={15}
-            onFinish={() => alert('Finished')}
+            onFinish={() => this.isFinished}
             digitStyle={{backgroundColor: '#FFF'}}
             digitTxtStyle={{color: '#1CC625'}}
             timeToShow={['M', 'S']}

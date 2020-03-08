@@ -1,4 +1,4 @@
-package com.ebook;
+package com.smktelkom.zakat;
 
 import com.facebook.react.ReactActivity;
 

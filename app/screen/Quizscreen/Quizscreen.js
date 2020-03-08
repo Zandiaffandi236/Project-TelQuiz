@@ -7,6 +7,7 @@ import {View, TouchableOpacity, ScrollView} from 'react-native';
 import styles from './styles';
 import I18n from '../../i18n/index';
 import Quizdata from '../../../assets/raw/gamelist.json';
+import {Alert} from 'react-native';
 
 export default class Quizscreen extends Component {
   constructor(props) {
@@ -29,6 +30,17 @@ export default class Quizscreen extends Component {
       TrueAnswer: jawaban
     })
   }
+
+  isFinished = async () => {
+    const AllAnswer = this.state.Answer
+      const AllTrueAnswer = this.state.TrueAnswer
+      const pushAction = StackActions.push({
+        routeName: 'ScoreQuiz',
+        params: {AllAnswer, AllTrueAnswer}
+      });
+      this.props.navigation.dispatch(pushAction);
+      Alert('Finished');
+  };
 
   next = async () => {
     if (this.state.Num + 1 === this.state.Quiz.length){
@@ -61,7 +73,7 @@ export default class Quizscreen extends Component {
           <CountDown
             until={60 * 45}
             size={15}
-            onFinish={() => alert('Finished')}
+            onFinish={() => this.isFinished}
             digitStyle={{backgroundColor: '#FFF'}}
             digitTxtStyle={{color: '#1CC625'}}
             timeToShow={['M', 'S']}
@@ -107,7 +119,7 @@ export default class Quizscreen extends Component {
             </TouchableOpacity>
             <Button
               block
-              style={{marginTop: scale(30), marginHorizontal: 12,marginLeft: scale(30) , backgroundColor: "#44B883",width: scale(300), height: scale(40), borderRadius: 5}}
+              style={{marginTop: scale(30),marginBottom: scale(40), marginHorizontal: 12,marginLeft: scale(30) , backgroundColor: "#44B883",width: scale(300), height: scale(40), borderRadius: 5}}
               onPress={this.next}>
               {this.state.Num + 1 === this.state.Quiz.length ? (<Text>{I18n.t('end')}</Text>) : (<Text>{I18n.t('next')}</Text>) }
             </Button>
